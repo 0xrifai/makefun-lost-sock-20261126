@@ -6,9 +6,6 @@ import { mkdirSync, writeFileSync } from "node:fs";
 const LINE =
   "Open to work: former sock, now a dust rag. Willing to relocate. Will not do feet again.";
 
-const LINE =
-  "Open to work: former sock, now a dust rag. Willing to relocate. Will not do feet again.";
-
 // The gate allows 1–120 characters of plain text; this line stays well
 // inside it, so there is nothing to trim and no second line to add.
 if (LINE.length < 1 || LINE.length > 120) {
